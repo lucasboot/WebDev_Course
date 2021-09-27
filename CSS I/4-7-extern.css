@@ -1,0 +1,25 @@
+body{
+
+}
+
+
+#Title{
+    color: rosybrown
+}
+#main{ /*# se refere ao id, sem, à tag*/
+    color: powderblue;
+    background-image: url(../Images/Img2.jpg);
+    /*background-repeat: no-repeat;
+      background-repeat: repeat-y;
+    */
+    
+    /*
+    background-size: cover;
+    background-image: url(../Images/Img1.jpg)
+    background-color: #00FFFF */
+    background-attachment: fixed;
+    background-position: center;
+}
+.texto_verde {/*class, varios elementos*/
+    color:greenyellow
+}
