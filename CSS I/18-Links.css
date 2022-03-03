@@ -1,0 +1,19 @@
+.links{
+text-decoration: none;
+color: white;
+cursor: crosshair;
+background: purple;
+padding: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 10px;
+border: 2px solid grey;
+}
+.links:visited{ /*estado de já clicado*/
+    color:aqua;
+}
+.links:hover{ /*mouse por cima*/
+    background: yellow;
+    color: black;
+}
+/*.links:active{} ativa determinada cor quando clicado*/

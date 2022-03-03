@@ -1,0 +1,12 @@
+p{
+    color: blueviolet;
+    text-align: left;
+    text-align: justify;
+    text-transform: uppercase; /*lowercase, capitalize: todas primeiras letras*/
+    text-indent: 35px;
+    text-decoration: underline overline line-through;
+    letter-spacing: 1.2px;
+    line-height: 3;
+    word-spacing: 5px;
+    text-shadow: 1px 1px grey;
+}

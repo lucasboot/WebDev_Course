@@ -1,0 +1,45 @@
+
+#Title{
+    color: rosybrown
+}
+#paragrafos{ /*utilizando o id da div criada*/
+    color: black;
+    background: url(../Images/Img2.jpg) center/cover no-repeat fixed;  
+}
+.texto_verde {
+    color:greenyellow
+}
+
+#cm{
+    background-color: blue;
+    width: 1cm;
+    height: 1cm;
+}
+
+#mm{
+    background-color: red;
+    width: 1mm;
+    height: 1mm;
+}
+#in{
+    background-color: green;
+    width: 1in;
+    height: 1in;
+}
+#px{
+    background-color: purple;
+    width: 10px;
+    height: 10px;
+}
+
+#pt{
+    background-color: grey;
+    width: 10pt;
+    height: 10pt;
+}
+
+#pc{
+    background-color: black;
+    width: 10pc;
+    height: 10pc;
+}

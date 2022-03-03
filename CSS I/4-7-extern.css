@@ -7,19 +7,26 @@ body{
     color: rosybrown
 }
 #main{ /*# se refere ao id, sem, à tag*/
-    color: powderblue;
-    background-image: url(../Images/Img2.jpg);
-    /*background-repeat: no-repeat;
+    color: black;
+   /* background-image: url(../Images/Img2.jpg); 
+      background-repeat: no-repeat;
       background-repeat: repeat-y;
     */
     
     /*
-    background-size: cover;
+    background-size: cover; estica para cobrir
     background-image: url(../Images/Img1.jpg)
-    background-color: #00FFFF */
-    background-attachment: fixed;
+    background-color: #00FFFF 
+    background-attachment: fixed; não rola junto da pag
     background-position: center;
+*/
+    background: url(../Images/Img2.jpg) center fixed;  
 }
-.texto_verde {/*class, varios elementos*/
+.texto_verde {/*class, varios elementos*/ 
     color:greenyellow
 }
+/* opcao mais direta de uso
+p{
+    color: red;
+}
+*/

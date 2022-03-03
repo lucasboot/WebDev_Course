@@ -1,0 +1,37 @@
+
+#Title{
+    color: rosybrown
+}
+#paragrafos{ /*utilizando o id da div criada*/
+    color: black;
+    background: url(../Images/Img2.jpg) center/cover no-repeat fixed;  
+}
+.texto_verde {
+    color:greenyellow
+}
+
+.container{
+    /*font-size: 20px;*/
+    width: 50vw; /*50% da tela horizon, vmin é em relação à menor dimensao*/
+    background-color: red;
+}
+.inside {
+   /* font-size: 1em; 1x o tamanho do pai*/
+   /*font-size: 1rem; root*/
+   width: 100%;
+   background-color: blue;
+}
+
+#base{
+    height: 10px;
+    background-color: purple;
+}
+#galho {
+    background-color: brown;
+    color: white;
+    /*
+    margin-top: 10px;
+    margin-left: 10px;
+    margin: 10px; todos os lados*/
+    padding: 10px; /*margem do elemento interno*/
+}

@@ -1,0 +1,19 @@
+ul{
+    list-style-type: square; /*disc, circle, square*/
+    /*list-style-image: url("endereço");*/
+    list-style-position: inside;
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+}
+ol{
+   list-style-type: upper-roman; /*roman, alpha, etc.*/
+}
+
+li{
+    border: 1px solid;
+    background-color: brown;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
