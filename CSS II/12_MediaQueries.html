@@ -1,0 +1,69 @@
+<DOCTYPE html>
+	<html> 
+	<head> 
+		<title> Media Querries </title>
+		<meta charset="utf-8"> 
+        <link href="19-List.css" rel="stylesheet">
+        <style type="text/css">
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .header{
+                overflow: hidden;
+                margin: auto;
+                width: 80%;
+                background: purple;
+                padding: 15px;
+                font-size: 18px;
+            }
+            .menu{
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                float: right;
+                background: red;
+            }
+            li{
+                color: white;
+                display:inline-block;
+                margin-left: 15px;
+            }
+            .logo{
+                float: none;
+                color: white;
+            }
+            @media screen and (max-width: 400px){
+                .logo{
+                    float: none;
+                    text-align: center;
+                }
+                .menu{
+                    margin-top: 20px;
+                    float: none;
+                    text-align: center;
+                }
+                li{
+                    float:none;
+                    display: block;
+                    margin-bottom: 5px;
+                    padding: 10px;
+                }
+            }
+
+		</style>
+	</head>
+
+	<body>
+        <div class="header">
+            <div class="logo">
+                Logo
+            </div>
+            <ul class="menu">
+                <li>Home</li>
+                <li>Cursos</li>
+                <li>Contato</li>
+            </ul>
+        </div>
+     </body>
+    </html>

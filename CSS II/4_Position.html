@@ -1,0 +1,40 @@
+<DOCTYPE html>
+	<html> 
+	<head> 
+		<title> Position </title>
+		<meta charset="utf-8"> 
+        <link href="19-List.css" rel="stylesheet">
+        <style>
+		.quadrado{
+          /*  display: inline-block;*/
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red{
+            background-color: red;
+        }
+        .quadrado-blue{
+            background-color: blue;
+            position: relative; /*nao altera outros elementos, como a margin*/
+            left: 400px;
+            top: 200px;
+        }
+        .quadrado-green{
+            background-color: green;
+        }
+        .quadro{
+            width: 500px;
+            height: 400px;
+            border: 1px solid gray;
+        }
+		</style>
+	</head>
+
+	<body>
+        <div class="quadro">
+            <div class="quadrado quadrado-red"></div>
+            <div class="quadrado quadrado-blue"></div>
+            <div class="quadrado quadrado-green"></div>
+        </div>
+     </body>
+    </html>

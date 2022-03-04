@@ -1,0 +1,40 @@
+<DOCTYPE html>
+	<html> 
+	<head> 
+		<title> Position </title>
+		<meta charset="utf-8"> 
+        <link href="19-List.css" rel="stylesheet">
+        <style>
+		.quadrado{
+            width: 100px;
+            height: 100px;
+        }
+        .quadrado-red{
+            position: sticky; /*os outros elementos não ignoram suas existencias como no fixed*/
+            top: 0px;
+            width: 100%;
+            background-color: red;
+        }
+        .quadrado-blue{
+       
+            background-color: blue;
+        }
+        .quadrado-green{
+            background-color: green;
+        }
+        .quadro{
+            width: 500px;
+            height: 4000px;
+            border: 1px solid gray;
+        }
+		</style>
+	</head>
+
+	<body>
+        <div class="quadro">
+            <div class="quadrado quadrado-red"></div>
+            <div class="quadrado quadrado-blue"></div>
+            <div class="quadrado quadrado-green"></div>
+        </div>
+     </body>
+    </html>
