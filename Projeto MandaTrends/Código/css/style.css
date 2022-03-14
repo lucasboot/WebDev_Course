@@ -1,0 +1,52 @@
+@import url('http://fonts.cdnfonts.com/css/arial-mt');
+
+*{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 640px;
+    max-height: 1014px;
+   
+}
+header{
+    background-image: url("../Imagens/Header.png");
+    background-repeat: no-repeat;
+    position: sticky;
+    max-height: 165px;
+    
+   
+}
+
+.container{
+    background-color: #f3f3f3;
+    
+}
+.inside {
+    background-color: white;
+    margin-right: 20px;
+    margin-left: 20px;
+    height: 950px;
+}
+#news1{
+    
+}
+#photo-news1{
+    width: 528px;
+    height: 237px;
+}
+#footer-logo{
+    height: 80px;
+    width: 601px;
+    padding-top: 705px;
+}
+
+footer{
+    font-family: 'ArialMT';
+    text-align: center;
+    color: #646869;
+    font-size: 11px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
