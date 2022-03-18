@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            margin-bottom: 25px;
+        }
+        div {
+            display: inline;
+            padding: 10px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+    </style>
+    <script>
+      function onOver(elemento){
+          elemento.style.backgroundColor = "red";
+      }
+      function onOut(elemento){
+          elemento.style.backgroundColor = "cornflowerblue";
+      }
+    </script>
+
+</head>
+<body onload="console.log('página carregada')">
+    <img src = "https://www.mercadoface.com.br/pic/x/cache/big/files/br/18252/378e6946881a78cd6528b012c0125d55.jpg?1644516847">
+    <br>
+    <div onmouseover="onOver(this)"
+         onmouseout="onOut(this)"
+    >Click</div>
+
+</body>
+</html>
