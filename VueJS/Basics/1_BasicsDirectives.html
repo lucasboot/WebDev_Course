@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue3 Basics</title>
+
+    <style>
+        .box{
+            margin: 10px;
+            background-color: purple;
+            height: 200px;
+            width: 200px;
+        }
+
+        .box2{
+            margin: 10px;
+            background-color: greenyellow;
+            height: 200px;
+            width: 200px;
+        }
+
+        .box3{
+            margin: 10px;
+            background-color: silver;
+            height: 200px;
+            width: 200px;
+        }
+        [v-cloak]{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="app" v-cloak>
+        {{ greeting }}
+        <input v-model="greeting"> 
+        <hr>
+        <div v-if="isVisible" class="box"></div>
+        <div v-show="isVisible" class="box"></div>
+        <div v-else-if="isVisible2" class="box2"></div>
+        <div v-else class="box3"></div>
+
+    </div>
+
+    <script src="https://unpkg.com/vue@3"></script>
+    <script>
+        let app = Vue.createApp({
+            data: function() {
+                return{
+                    greeting: 'Hello Vue3!',
+                    isVisible: false,
+                    isVisible2: true
+                }
+            }
+        });
+        app.mount('#app');
+    </script>
+</body>
+</html>
