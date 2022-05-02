@@ -4,7 +4,10 @@ v-for
 v-model
 v-on (@)
 v-once
-
+v-if --> Tira do DOM
+v-else
+v-show --> Display none
+v-else-if
 Methods vs Computed vs Watchers
 Methods: 
 - use with events binding or data binding
