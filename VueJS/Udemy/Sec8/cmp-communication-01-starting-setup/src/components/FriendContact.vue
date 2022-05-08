@@ -17,11 +17,25 @@
 
 <script>
 export default {
-  props:[
-    'name',
-    'phoneNumber',
-    'emailAddress'
-  ],
+ // props:[ 'name','phoneNumber', 'emailAddress'],
+ props: {
+   name: {
+     type: String,
+     required: true
+   },
+   phoneNumber: {
+     type: String,
+     required: true
+   },
+   emailAddress: {
+     type: String,
+     required: false,
+     default: '0',
+     validador: function(value){
+       return value ==='1' || value ==='0';
+     }
+   }
+ },
   data() {
     return {
       detailsAreVisible: false,

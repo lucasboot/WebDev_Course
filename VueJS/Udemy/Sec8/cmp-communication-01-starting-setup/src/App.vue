@@ -8,6 +8,7 @@
       name="Manuel Lorenz"
       phone-number="1211 102102"
       email-address="manuel@localhost.com"
+      is-favorite="1"
       ></friend-contact>
       <friend-contact
       name="Julie Aaaa"
